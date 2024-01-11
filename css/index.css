@@ -118,8 +118,58 @@ a {
     margin-bottom: 25px;
 }
 
-#section .slide .text p {
+#section .slide .text span {
+    display: block;
     font-size: 18px;
-    line-height: 1.5em;
+    font-weight: 550;
+}
+
+#section .ourcompany {
+    color: #333;
+    text-align: center;
+}
+
+#section .ourcompany .slogun {
+    margin: 80px 0 50px;
+    padding: 10px;
+}
+
+#section .ourcompany .slogun h2 {
+    font-weight: normal;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+#section .ourcompany .slogun span {
+    display: block;
+    font-size: 15px;
+}
+
+#section .ourcompany ul {
+    overflow: hidden;
+}
+
+#section .ourcompany ul li.photo {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+#section .ourcompany ul li.photo h3 {
+    font-size: 20px;
+    padding: 20px 30px;
     font-weight: 500;
+}
+
+#section .ourcompany ul li.photo span {
+    display: block;
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+
+#section .ourcompany ul li.photo a {
+    font-size: 14px;
+    padding: 20px 0 25px;
+    font-weight: bold;
 }
