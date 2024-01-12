@@ -398,3 +398,49 @@ img {
 #section .contact .query .btn a:nth-child(2) {
     background: #333;
 }
+
+/* ============================================================ */
+
+#footer .row {
+    overflow: hidden;
+}
+
+#footer .btmlogo {
+    float: left;
+    padding: 30px 0;
+}
+
+#footer .btmmenu {
+    float: right;
+    height: 125px;
+}
+
+#footer .btmmenu {
+    overflow: hidden;
+}
+
+#footer .btmmenu .companyinfo {
+    float: left;
+    color: #555;
+}
+
+#footer .btmmenu .sns {
+    float: right;
+    margin-left: 50px;
+    padding-top: 50px;
+    opacity: 0.5;
+}
+
+#footer .btmmenu .sns a {
+    padding-left: 5px;
+}
+
+#footer .btmmenu .companyinfo>a {
+    font-size: 14px;
+}
+
+#footer .btmmenu .companyinfo .addr {
+    font-size: 13px;
+    line-height: 1.5em;
+
+}
