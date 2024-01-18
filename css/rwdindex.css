@@ -194,7 +194,7 @@
 
     #section .creative {
         overflow: hidden;
-        padding: 100px 10px 0px 10px;
+        padding: 0px;
         background: #fafafa;
     }
 
@@ -206,7 +206,7 @@
     #section .creative .text {
         float: left;
         width: 100%;
-        padding: 50px 0px;
+        padding: 20px 20px;
     }
 
     #section .creative .text h2 {
@@ -238,7 +238,7 @@
     /*===================business=========================*/
 
     #section .business {
-        padding: 60px 0 0 0;
+        padding: 60px 0;
         text-align: center;
     }
 
@@ -357,6 +357,12 @@
         padding: 13px 15.5px 13px 0;
     }
 
+    #footer .row .companyinfo .companyAddr {
+        margin-top: 20px;
+        line-height: 20px;
+        overflow: hidden;
+    }
+
     #footer .companyAddr .addr {
         float: none;
         font-size: 13px;
@@ -365,7 +371,7 @@
     #footer .companyAddr .sns {
         float: none;
         font-size: 13px;
-        padding-top: 20px;
+        margin: 20px 0 50px;
     }
 
     #footer .companyAddr .sns i {
