@@ -286,7 +286,7 @@
     /*===================contact=========================*/
 
     #section .contact {
-        margin: -350px 0 40px 0;
+        margin: -200px 0 40px 0;
     }
 
     #section .contact .map {
@@ -298,8 +298,8 @@
         float: left;
         width: 100%;
         background-color: #fff;
-        height: 400px;
-        padding: 60px 24px 0 10px;
+        height: auto;
+        padding: 60px 0;
         text-align: left;
     }
 
