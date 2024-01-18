@@ -381,5 +381,14 @@
         margin-left: 20px;
     }
 
+    #footer span {
+        display: block;
+    }
+
+    #footer span.slash {
+        display: none
+    }
+
+    ;
 
 }
