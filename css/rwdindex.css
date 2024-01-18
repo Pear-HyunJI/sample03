@@ -265,7 +265,7 @@
     /* ==========================best================================== */
 
     #section .best {
-        background: url(../image/banner04.jpg) right / cover;
+        background: url(../image/banner04.jpg) right center / cover;
         height: 580px;
         width: 100%;
         text-align: center;
