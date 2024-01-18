@@ -8,6 +8,12 @@
     font-family: "Noto Sans KR", sans-serif;
 }
 
+.blind {
+    position: absolute;
+    left: -9999px;
+    overflow: hidden;
+}
+
 ul {
     list-style: none;
 }
@@ -49,6 +55,10 @@ img {
 #header h1 {
     float: left;
     padding-top: 13px;
+}
+
+#header .menuopen {
+    display: none;
 }
 
 #header #nav {
@@ -98,12 +108,12 @@ img {
     color: #fff;
 }
 
-/* =======================homemain===================================== */
 /* ===========================slide================================= */
 
 
-#section .homemain {
-    width: 100%;
+#section .slideOuter .slide {
+    position: relative;
+    height: 45vw;
 }
 
 /* arrow */
@@ -210,7 +220,7 @@ img {
 
 #section .slide .text h2 {
     font-size: 35px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     opacity: 0;
     transform: translate3d(-100%, 0, 0);
 }
@@ -292,19 +302,9 @@ img {
     font-size: 14px;
     padding: 20px 0 25px;
     font-weight: bold;
-    position: relative;
     margin-bottom: 40px;
 }
 
-#section .ourcompany ul li.photo a::after {
-    display: block;
-    position: absolute;
-    top: 24px;
-    right: 135px;
-    font-family: "FontAwesome";
-    font-size: 120x;
-    content: "\f061";
-}
 
 /* =========================creative=================================== */
 
@@ -426,6 +426,7 @@ img {
 #section .best {
     background: url(../image/banner04.jpg) center / cover;
     height: 580px;
+    width: 100;
     text-align: center;
     padding-top: 100px;
 }
