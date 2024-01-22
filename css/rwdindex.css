@@ -21,37 +21,29 @@
 
     #header .row {
         padding: 0;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
     }
 
     #header h1 {
-        /* float: left; */
+        float: left;
         padding: 10px 0 10px 50px;
     }
 
     #header .menuopen {
         display: block;
         font-size: 20px;
-        /* float: right; */
-        /* height: 91.1px;
-        line-height: 91.1px; */
+        float: right;
+        height: 91.1px;
+        line-height: 91.1px;
         margin-right: 50px;
     }
 
     #header #nav {
-        /* float: right; */
+        float: right;
         width: 100%;
         display: block;
     }
 
-    #header #nav .depth1 {
-        display: block;
-    }
-
     #header #nav .depth1>li {
-        display: block;
         float: none;
         font-size: 14px;
         color: #333;
@@ -93,7 +85,7 @@
         color: #333;
         font-size: 14px;
         font-family: "Noto Sans KR", sans-serif;
-        display: block;
+        display: none;
     }
 
     #header #nav .depth1>li:hover .depth2 {
@@ -160,15 +152,9 @@
         padding: 10px;
     }
 
-    #section .ourcompany ul {
-        /* overflow: hidden; */
-        display: block;
-    }
-
     #section .ourcompany ul .photo {
-        /* float: left;
-        width: 33.33%; */
-        flex: 1;
+        float: left;
+        width: 100%;
         padding: 10px;
     }
 
@@ -207,23 +193,20 @@
     /*===================creative=========================*/
 
     #section .creative {
-        /* overflow: hidden; */
-        padding: 100px 0;
+        overflow: hidden;
+        padding: 0px;
         background: #fafafa;
-        display: block;
     }
 
     #section .creative .videoBox {
-        /* float: left;
-        width: 50%; */
-        /* flex: 1 1 50%; */
+        float: left;
+        width: 100%;
     }
 
     #section .creative .text {
-        /* float: left;
-    width: 50%; */
-        /* flex: 1 1 50%; */
-        padding: 50px 100px;
+        float: left;
+        width: 100%;
+        padding: 20px 20px;
     }
 
     #section .creative .text h2 {
@@ -263,16 +246,9 @@
         padding: 10px 0px 0 10px;
     }
 
-    #section .business ul {
-        /* overflow: hidden; */
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     #section .business ul li {
-        flex: 1 1 50%;
-        /* float: left; */
-        /* width: 50%; */
+        float: left;
+        width: 50%;
         padding: 10px 10px 0 0px;
     }
 
@@ -313,19 +289,14 @@
         margin: -200px 0 40px 0;
     }
 
-    #section .contact .row {
-        /* overflow: hidden; */
-        display: block;
-    }
-
     #section .contact .map {
-        /* float: left;
-        width: 100%; */
+        float: left;
+        width: 100%;
     }
 
     #section .contact .query {
-        /* float: left;
-        width: 100%; */
+        float: left;
+        width: 100%;
         background-color: #fff;
         height: auto;
         padding: 60px 0;
@@ -362,31 +333,19 @@
 
     /*===================footer=========================*/
 
-    #footer .row {
-        /* overflow: hidden; */
-        display: flex;
-        /* justify-content: space-between; */
-        flex-wrap: wrap;
-    }
-
     #footer .btmlogo {
-        /* float: left; */
+        float: left;
         padding: 10px;
-        /* width: 100%; */
-        flex: 1 1 100%;
-        margin-left: 0px;
+        width: 100%;
     }
 
     #footer .companyinfo {
-        flex: 1 1 100%;
-        /* float: right;
-        width: 100%; */
-
+        float: right;
+        width: 100%;
         color: #555;
         font-weight: 600;
         padding: 10px;
         text-align: center;
-        margin-right: 0px;
     }
 
     #footer .companyinfo .btmmenu {
@@ -401,27 +360,22 @@
     #footer .row .companyinfo .companyAddr {
         margin-top: 20px;
         line-height: 20px;
-        /* overflow: hidden; */
-        display: flex;
-        flex-wrap: wrap;
+        overflow: hidden;
     }
 
     #footer .companyAddr .addr {
-        flex: 1 1 100%;
-        /* float: none; */
+        float: none;
         font-size: 13px;
-        text-align: center;
     }
 
     #footer .companyAddr .sns {
-        flex: 1 1 100%;
         float: none;
         font-size: 13px;
         margin: 20px 0 50px;
     }
 
     #footer .companyAddr .sns i {
-        /* float: none; */
+        float: none;
         font-size: 13px;
         opacity: 0.5;
         margin-left: 20px;
@@ -432,7 +386,9 @@
     }
 
     #footer span.slash {
-        display: none;
+        display: none
     }
+
+    ;
 
 }

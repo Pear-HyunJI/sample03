@@ -23,11 +23,11 @@ a {
     text-decoration: none;
 }
 
-/* .cf::after {
+.cf::after {
     content: "";
     display: block;
     clear: both;
-} */
+}
 
 img {
     max-width: 100%;
@@ -52,13 +52,8 @@ img {
     z-index: 9;
 }
 
-#header .row {
-    display: flex;
-    justify-content: space-between;
-}
-
 #header h1 {
-    /* float: left; */
+    float: left;
     padding-top: 13px;
 }
 
@@ -67,18 +62,11 @@ img {
 }
 
 #header #nav {
-    /* float: right; */
-    display: flex;
-}
-
-#header #nav .depth1 {
-    display: flex;
+    float: right;
 }
 
 #header #nav .depth1>li {
-    /* float: left; */
-    display: flex;
-    align-items: center;
+    float: left;
     font-size: 17px;
     color: #333;
     position: relative;
@@ -86,8 +74,8 @@ img {
 
 #header #nav .depth1>li>a {
     display: block;
-    /* height: 91.1px;
-    line-height: 91.1px; */
+    height: 91.1px;
+    line-height: 91.1px;
     padding: 0 30px;
     font-weight: 900;
 }
@@ -279,14 +267,12 @@ img {
 }
 
 #section .ourcompany ul {
-    /* overflow: hidden; */
-    display: flex;
+    overflow: hidden;
 }
 
 #section .ourcompany ul .photo {
-    /* float: left;
-    width: 33.33%; */
-    flex: 1;
+    float: left;
+    width: 33.33%;
     padding: 10px;
 }
 
@@ -323,16 +309,14 @@ img {
 /* =========================creative=================================== */
 
 #section .creative {
-    /* overflow: hidden; */
+    overflow: hidden;
     padding: 100px 0;
     background: #fafafa;
-    display: flex;
 }
 
 #section .creative .videoBox {
-    /* float: left;
-    width: 50%; */
-    flex: 1 1 50%;
+    float: left;
+    width: 50%;
 }
 
 #section .creative .videoBox video {
@@ -340,9 +324,8 @@ img {
 }
 
 #section .creative .text {
-    /* float: left;
-    width: 50%; */
-    flex: 1 1 50%;
+    float: left;
+    width: 50%;
     padding: 50px 100px;
 }
 
@@ -394,15 +377,12 @@ img {
 }
 
 #section .business ul {
-    /* overflow: hidden; */
-    display: flex;
-    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 #section .business ul li {
-    flex: 1 1 20%;
-    /* float: left;
-    width: 20%; */
+    float: left;
+    width: 20%;
     padding: 10px;
 }
 
@@ -468,20 +448,17 @@ img {
 }
 
 #section .contact .row {
-    /* overflow: hidden; */
-    display: flex;
+    overflow: hidden;
 }
 
 #section .contact .map {
-    /* float: left;
-    width: 50%; */
-    flex: 1 1 50%;
+    float: left;
+    width: 50%;
 }
 
 #section .contact .query {
-    flex: 1 1 50%;
-    /* float: left;
-    width: 50%; */
+    float: left;
+    width: 50%;
     background-color: #fff;
     height: 400px;
     padding: 60px 24px 0 96px;
@@ -528,25 +505,21 @@ img {
 }
 
 #footer .row {
-    /* overflow: hidden; */
-    display: flex;
-    justify-content: space-between;
+    overflow: hidden;
 }
 
 #footer .btmlogo {
-    /* float: left; */
+    float: left;
     padding: 10px;
-    /* width: 25%; */
-    margin-left: 100px;
+    width: 25%;
 }
 
 #footer .companyinfo {
-    /* float: right;
-    width: 75%; */
+    float: right;
+    width: 75%;
     color: #555;
     font-weight: 600;
     padding: 10px;
-    margin-right: 100px;
 }
 
 #footer .companyinfo .btmmenu>a {
@@ -558,23 +531,21 @@ img {
 #footer .row .companyinfo .companyAddr {
     margin-top: 30px;
     line-height: 20px;
-    /* overflow: hidden; */
-    display: flex;
+    overflow: hidden;
 }
 
 #footer .companyAddr .addr {
-    /* float: left; */
+    float: left;
     font-size: 13px;
 }
 
 #footer .companyAddr .sns {
-    /* float: right; */
+    float: right;
     font-size: 14px;
-    margin-left: 20px;
 }
 
 #footer .companyAddr .sns i {
-    /* float: right; */
+    float: right;
     font-size: 14px;
     opacity: 0.5;
     margin-left: 20px;
